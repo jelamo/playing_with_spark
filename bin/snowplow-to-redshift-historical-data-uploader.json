@@ -1,0 +1,55 @@
+[
+  {
+    "Classification": "spark-env",
+    "Configurations": [
+      {
+        "Classification": "export",
+        "Properties": {
+          "S3_SNOWPLOW_BUCKET_AWS_ACCESS_KEY_ID": "aaa",
+          "S3_SNOWPLOW_BUCKET_AWS_SECRET_ACCESS_KEY": "aaa",
+          "TARGET_REDSHIFT_DB_URL": "jdbc:redshift://spark.ccoginstmlhc.us-west-2.redshift.amazonaws.com:5439/spark",
+          "TARGET_REDSHIFT_DB_USER": "aaa",
+          "TARGET_REDSHIFT_DB_PASSWORD": "aa"
+        }
+      }
+    ]
+  },
+  {
+    "Classification": "yarn-env",
+    "Properties": {
+
+    },
+    "Configurations": [
+      {
+        "Classification": "export",
+        "Properties": {
+          "S3_SNOWPLOW_BUCKET_AWS_ACCESS_KEY_ID": "aaa",
+          "S3_SNOWPLOW_BUCKET_AWS_SECRET_ACCESS_KEY": "aaa",
+          "TARGET_REDSHIFT_DB_URL": "jdbc:redshift://spark.ccoginstmlhc.us-west-2.redshift.amazonaws.com:5439/spark",
+          "TARGET_REDSHIFT_DB_USER": "aaa",
+          "TARGET_REDSHIFT_DB_PASSWORD": "aaa"
+        },
+        "Configurations": []
+      }
+    ]
+  },
+  {
+    "Classification": "hadoop-env",
+    "Properties": {
+
+    },
+    "Configurations": [
+      {
+        "Classification": "export",
+        "Properties": {
+          "S3_SNOWPLOW_BUCKET_AWS_ACCESS_KEY_ID": "aaa",
+          "S3_SNOWPLOW_BUCKET_AWS_SECRET_ACCESS_KEY": "aaa",
+          "TARGET_REDSHIFT_DB_URL": "jdbc:redshift://spark.ccoginstmlhc.us-west-2.redshift.amazonaws.com:5439/spark",
+          "TARGET_REDSHIFT_DB_USER": "aaa",
+          "TARGET_REDSHIFT_DB_PASSWORD": "aaa"
+        },
+        "Configurations": []
+      }
+    ]
+  }
+]
